@@ -1,0 +1,7 @@
+spring:
+  config:
+    activate:
+      on-profile: k8s
+# application.yml üzerine burdaki bilgileri ekler.
+
+HOST: k8s-url
